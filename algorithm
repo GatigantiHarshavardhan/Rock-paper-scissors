@@ -1,0 +1,19 @@
+Prompt the user to enter the number of rounds they want to play.
+If the number of rounds is not a positive integer, display an error message and exit the program.
+Initialize the player and computer scores to 0.
+For each round from 1 to the number of rounds:
+a. Prompt the user to enter their choice (0 for rock, 1 for paper, or 2 for scissors).
+b. If the user's choice is not a valid option, display an error message and repeat the current round.
+c. Generate a random number between 0 and 2 to represent the computer's choice.
+d. Display the user's choice and the computer's choice.
+e. If the user and the computer chose the same option, display a tie message and move on to the next round.
+f. If the user wins the round (rock beats scissors, paper beats rock, or scissors beat paper), display a win message and increment the player's score.
+g. If the computer wins the round, display a lose message and increment the computer's score.
+h. Display the current score (player score vs computer score).
+Display the final results of the game (player wins vs computer wins vs ties).
+Exit the program.
+
+
+//This program prompts the user to enter the number of rounds they want to play and keeps track of the score for each round. It also includes error checking to ensure that the user enters a valid number of rounds and a valid choice for each round. At the end of the game, it declares the winner based on the total scores accumulated throughout the game.
+
+Note that this program assumes that the user will enter a valid number of rounds and a valid choice for each round. If the user enters an invalid value, the program will display an error message and repeat the corresponding round.
